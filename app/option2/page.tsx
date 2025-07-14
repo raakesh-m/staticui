@@ -294,7 +294,7 @@ function Dashboard() {
               </div>
               <div>
                 <h4 className="font-semibold text-slate-900">
-                  This Week's Summary
+                  This Week&apos;s Summary
                 </h4>
                 <p className="text-xs text-slate-600">
                   3 transactions completed
