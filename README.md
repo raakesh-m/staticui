@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StaticUI - Modern Banking Interface Designs
 
-## Getting Started
+A collection of three distinct banking interface designs built with Next.js and Tailwind CSS, showcasing different UI patterns and user experience approaches.
 
-First, run the development server:
+## 🎨 Design Options
+
+### Option 1: Card Layout
+
+- **Theme**: Light theme with modern card-based design
+- **Style**: iOS-inspired with rounded corners and soft shadows
+- **Features**: Card-based layouts, gradient backgrounds, and intuitive navigation
+- **Best for**: Consumer-friendly interfaces
+
+### Option 2: Professional & Clean
+
+- **Theme**: Elegant professional interface with clean aesthetics
+- **Style**: Enterprise-focused with structured layouts
+- **Features**: Corporate branding, structured grids, and formal typography
+- **Best for**: Business and enterprise applications
+
+### Option 3: Horizontal Navigation
+
+- **Theme**: Desktop-inspired with horizontal scrolling widgets
+- **Style**: Tab-based navigation with horizontal scrolling elements
+- **Features**: Multi-tab interface, horizontal widgets, and desktop-like experience
+- **Best for**: Feature-rich applications with multiple sections
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/raakesh-m/staticui.git
+cd staticui
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Built With
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js 15** - React framework for production
+- **React 19** - JavaScript library for building user interfaces
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **TypeScript** - Typed JavaScript at any scale
 
-## Learn More
+## 📱 Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Responsive Design**: Optimized for mobile-first experience
+- **Modern UI Components**: Buttons, cards, forms, and navigation elements
+- **Banking Functionality**: Account management, transfers, beneficiaries, and deposits
+- **Interactive Elements**: Hover effects, transitions, and smooth animations
+- **Clean Architecture**: Well-organized component structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Use Cases
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Banking and fintech applications
+- Financial dashboards
+- Mobile banking interfaces
+- Corporate banking solutions
+- UI/UX design inspiration
+- Design system foundations
 
-## Deploy on Vercel
+## 📦 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+staticui/
+├── app/
+│   ├── option1/          # Card Layout design
+│   ├── option2/          # Professional & Clean design
+│   ├── option3/          # Horizontal Navigation design
+│   ├── globals.css       # Global styles
+│   ├── layout.tsx        # Root layout
+│   └── page.tsx          # Homepage with design selection
+├── public/               # Static assets
+└── package.json
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎨 Design Philosophy
+
+Each design option represents a different approach to banking interfaces:
+
+- **Simplicity**: Clean and intuitive user experiences
+- **Accessibility**: Designed for users of all technical levels
+- **Modern**: Contemporary design trends and best practices
+- **Functional**: Real-world banking features and workflows
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/raakesh-m/staticui/issues).
+
+## 📧 Contact
+
+Raakesh Muralitharan - [@raakesh-m](https://github.com/raakesh-m)
+
+Project Link: [https://github.com/raakesh-m/staticui](https://github.com/raakesh-m/staticui)
